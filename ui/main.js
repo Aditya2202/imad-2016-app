@@ -1,4 +1,4 @@
-console.log('Loaded!');
+
  var button =document.getElementById('counter');
   var counter = 0;
  button.onclick = function(){
@@ -9,6 +9,6 @@ console.log('Loaded!');
     //Render the variable in the correct span
     counter =counter +1;
     var span =document.getElementById('count');
-    span.innerHTML = count.toString();
+    span.innerHTML = counter.toString();
     
 };
